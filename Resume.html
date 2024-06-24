@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+
+
+    
+          <!-- 
+                    Navbar
+            -->
+
+            <nav id="desktop-nav">
+                <div class="logo">Tejas Jayanagarkar</div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="Resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        
+        
+        
+            <!---
+            
+                        Hamburger 
+        
+            -->
+        
+        
+            <nav id="hamburger-nav">
+                <div class="logo">Tejas Jayanagarkar</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                    <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="Resume.html" onclick="toggleMenu()">Resume</a></li>
+                    <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+                </div>
+                </div>
+            </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/resume.jpg" alt="Profile Image">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello</p>
+            <p class="section__text__p2">A resume is a document that summarizes an individual's professional qualifications, including their work experience, education, skills, and accomplishments.
+                <br>
+                 <b>You can check My Resume by clicking on the Button.</b>
+            </p>
+            <center>
+            <div class="btn-container">
+                <button class="btn btn-resume" onclick="window.open('./assets/Tejas Resume.pdf')">Resume</button>
+            </div>
+            </center>
+        </div>
+    </section>
+
+
+    
+<br>
+<footer>
+  <div class="container">
+      <p>&copy; 2024 Tejas Jayanagarkar. All rights reserved.</p>
+  </div>
+</footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

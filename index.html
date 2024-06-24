@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+
+            <!-- 
+                    Navbar
+            -->
+
+    <nav id="desktop-nav">
+        <div class="logo">Tejas Jayanagarkar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!---
+    
+                Hamburger 
+
+    -->
+
+
+    <nav id="hamburger-nav">
+        <div class="logo">Tejas Jayanagarkar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="Resume.html" onclick="toggleMenu()">Resume</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic">
+
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">
+                Hello I'm
+            </p>
+
+            <h1 class="title">
+                Tejas Jayanagarkar
+            </h1>
+
+            <p class="section__text__p2">
+                A passionate Computer Science student with a keen interest in software development as Frontend or Backend development.
+                With a solid foundation in computer science principles and hands-on knowledge in various programming languages,
+                I am dedicated to building innovative solutions that  solve <br> real-world problems.<br>
+                Throughout my academic journey, I have honed my skills in coding, algorithm design, and software engineering. 
+                I thrive in collaborative environments <br> and enjoy working on projects that challenge my problem-solving abilities and creativity.
+                Whether it's developing a web application, analyzing complex datasets, or exploring new tech trends, I am always eager to learn and grow.
+                This portfolio showcases some of the projects I have worked on, my skills,and my professional experiences.
+                I invite you to explore my work and get to know more about my journey in the field of computer science.
+                Feel free to reach out if you have any questions or if you're interested in collaborating on exciting projects.
+                 Let's create something amazing together!
+            </p>
+           
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='about.html'">About</button>
+            </div>
+        </div>
+    </section>
+
+    
+<br>
+<footer>
+  <div class="container">
+      <p>&copy; 2024 Tejas Jayanagarkar. All rights reserved.</p>
+  </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
